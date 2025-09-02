@@ -6,21 +6,21 @@ import Link from "next/link";
 
 export default function EcoPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-emerald-50">
+    <div className="min-h-screen bg-gradient-to-br from-[#faf8f3] via-white to-[#94bae4]/20">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-slate-200/50 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-                JotadeAluja
+              <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
+                JdeAluja
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <Link href="/" className="text-slate-600 hover:text-green-600 transition-colors">Inicio</Link>
-              <Link href="/#que-es" className="text-slate-600 hover:text-green-600 transition-colors">Qué es</Link>
-              <Link href="/#servicios" className="text-slate-600 hover:text-green-600 transition-colors">Servicios</Link>
-              <Link href="/#sobre-mi" className="text-slate-600 hover:text-green-600 transition-colors">Sobre mí</Link>
+              <Link href="/" className="text-[#3a362f] hover:text-[#6b9cdd] transition-colors">Inicio</Link>
+              <Link href="/#que-es" className="text-[#3a362f] hover:text-[#6b9cdd] transition-colors">Qué es</Link>
+              <Link href="/#servicios" className="text-[#3a362f] hover:text-[#6b9cdd] transition-colors">Servicios</Link>
+              <Link href="/#sobre-mi" className="text-[#3a362f] hover:text-[#6b9cdd] transition-colors">Sobre mí</Link>
             </div>
           </div>
         </div>
@@ -30,29 +30,29 @@ export default function EcoPage() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <Badge variant="secondary" className="mb-4 bg-green-100 text-green-700 border-green-200">
+            <Badge variant="secondary" className="mb-4 bg-[#94bae4]/20 text-[#6b9cdd] border-[#94bae4]/30">
               <Sparkles className="w-4 h-4 mr-2" />
               Membresía ECO
             </Badge>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-[#3a362f] mb-8 leading-tight">
             Estás cansada de estar para todos…{" "}
-            <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
               ¿y cuándo vas a estar para ti?
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-[#3a362f]/70 mb-12 max-w-3xl mx-auto leading-relaxed">
             ECO es la membresía de autoconocimiento y espiritualidad práctica para mujeres que han vivido demasiado tiempo priorizando a los demás antes que a ellas.
           </p>
-          <p className="text-lg text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg text-[#3a362f]/70 mb-12 max-w-3xl mx-auto leading-relaxed">
             Un espacio donde parar, escucharte y volver a ti: con calma, claridad y sin sentirte sola.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
+            <Button size="lg" className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
               Quiero unirme a ECO
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <Button variant="outline" size="lg" className="px-8 py-4 text-lg rounded-full border-2 border-slate-300 hover:border-green-300 transition-all duration-300">
+            <Button variant="outline" size="lg" className="px-8 py-4 text-lg rounded-full border-2 border-[#c9baa4] hover:border-[#6b9cdd] transition-all duration-300">
               Descubre más
             </Button>
           </div>
@@ -64,29 +64,29 @@ export default function EcoPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#3a362f] mb-8 leading-tight">
                 No más teoría bonita.{" "}
-                <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
                   Aquí hablamos de vida real.
                 </span>
               </h2>
-              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+              <p className="text-lg text-[#3a362f]/70 mb-8 leading-relaxed">
                 ECO no es otra formación que acumulas y nunca aplicas. Es una tribu viva: comunidad, rutinas de autocuidado realista y herramientas simples que caben en tu día a día.
               </p>
-              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+              <p className="text-lg text-[#3a362f]/70 mb-8 leading-relaxed">
                 Aquí no vienes a leer frases inspiracionales, vienes a parar, escucharte y actuar.
               </p>
-              <Button size="lg" className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button size="lg" className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
                 Quiero saber cómo funciona
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </div>
             <div className="relative">
-              <div className="bg-gradient-to-br from-green-100 to-emerald-100 rounded-3xl p-8 h-96 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#94bae4]/30 to-[#c9baa4]/20 rounded-3xl p-8 h-96 flex items-center justify-center">
                 <div className="text-center">
-                  <Target className="w-24 h-24 text-green-600 mx-auto mb-6" />
-                  <h3 className="text-2xl font-semibold text-slate-800 mb-4">Espiritualidad práctica</h3>
-                  <p className="text-slate-600">Herramientas que realmente funcionan</p>
+                  <Target className="w-24 h-24 text-[#6b9cdd] mx-auto mb-6" />
+                  <h3 className="text-2xl font-semibold text-[#3a362f] mb-4">Espiritualidad práctica</h3>
+                  <p className="text-[#3a362f]/70">Herramientas que realmente funcionan</p>
                 </div>
               </div>
             </div>
@@ -95,9 +95,9 @@ export default function EcoPage() {
       </section>
 
       {/* Para quién */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 to-emerald-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#faf8f3] to-[#94bae4]/10">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-slate-900 mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#3a362f] mb-16">
             ECO es para ti si…
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -109,16 +109,16 @@ export default function EcoPage() {
             ].map((item, index) => (
               <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white">
                 <CardContent className="pt-8 pb-6 text-center">
-                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <CheckCircle className="w-8 h-8 text-green-600" />
+                  <div className="w-16 h-16 bg-[#94bae4]/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <CheckCircle className="w-8 h-8 text-[#6b9cdd]" />
                   </div>
-                  <p className="text-slate-700 leading-relaxed">{item}</p>
+                  <p className="text-[#3a362f] leading-relaxed">{item}</p>
                 </CardContent>
               </Card>
             ))}
           </div>
           <div className="text-center mt-12">
-            <p className="text-xl text-slate-700 font-medium mb-6">
+            <p className="text-xl text-[#3a362f] font-medium mb-6">
               Si lees esto y piensas &ldquo;me acaban de describir&rdquo;, entonces ECO es tu lugar.
             </p>
           </div>
@@ -128,9 +128,9 @@ export default function EcoPage() {
       {/* Problemas que resuelve */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-slate-900 mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#3a362f] mb-16">
             Lo que hoy te pesa,{" "}
-            <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
               aquí encuentra salida.
             </span>
           </h2>
@@ -153,19 +153,19 @@ export default function EcoPage() {
                 solution: "Tribu que escucha sin juicio."
               }
             ].map((item, index) => (
-              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-green-50 to-emerald-50">
+              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-[#94bae4]/20 to-[#c9baa4]/10">
                 <CardContent className="pt-8 pb-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-red-600 font-bold text-lg">×</span>
+                    <div className="w-12 h-12 bg-[#faf8f3] rounded-full flex items-center justify-center flex-shrink-0 border-2 border-[#6b9cdd]">
+                      <span className="text-[#6b9cdd] font-bold text-lg">×</span>
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-lg font-semibold text-red-700 mb-2">{item.problem}</h3>
+                      <h3 className="text-lg font-semibold text-[#3a362f] mb-2">{item.problem}</h3>
                       <div className="flex items-center mb-3">
-                        <ArrowRight className="w-5 h-5 text-green-600 mr-2" />
-                        <span className="text-green-700 font-medium">Solución:</span>
+                        <ArrowRight className="w-5 h-5 text-[#6b9cdd] mr-2" />
+                        <span className="text-[#6b9cdd] font-medium">Solución:</span>
                       </div>
-                      <p className="text-slate-700 leading-relaxed">{item.solution}</p>
+                      <p className="text-[#3a362f] leading-relaxed">{item.solution}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -173,7 +173,7 @@ export default function EcoPage() {
             ))}
           </div>
           <div className="text-center mt-12">
-            <Button size="lg" className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
+            <Button size="lg" className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
               Quiero salir del piloto automático
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
@@ -182,18 +182,18 @@ export default function EcoPage() {
       </section>
 
       {/* La Promesa */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 to-emerald-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#faf8f3] to-[#94bae4]/10">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#3a362f] mb-8">
             De vivir en automático a{" "}
-            <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
               volver a ti.
             </span>
           </h2>
-          <p className="text-xl text-slate-600 mb-8 leading-relaxed">
+          <p className="text-xl text-[#3a362f]/70 mb-8 leading-relaxed">
             ECO te acompaña a pasar de la desconexión y el cansancio a la calma, la claridad y la energía para tu vida real.
           </p>
-          <p className="text-xl text-slate-600 leading-relaxed">
+          <p className="text-xl text-[#3a362f]/70 leading-relaxed">
             Aquí vuelves a ti sin sentirte sola ni culpable por priorizarte.
           </p>
         </div>
@@ -202,9 +202,9 @@ export default function EcoPage() {
       {/* Qué encontrarás dentro */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-slate-900 mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#3a362f] mb-16">
             Espiritualidad práctica,{" "}
-            <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
               comunidad real y estructura amable.
             </span>
           </h2>
@@ -215,11 +215,11 @@ export default function EcoPage() {
               { icon: "🤝", title: "Comunidad segura", desc: "Cálida, sin jerarquías." },
               { icon: "📅", title: "Rutinas sostenibles", desc: "Sin exigencia ni culpas." }
             ].map((item, index) => (
-              <Card key={index} className="text-center border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-green-50 to-emerald-50">
+              <Card key={index} className="text-center border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-[#94bae4]/20 to-[#c9baa4]/10">
                 <CardContent className="pt-8 pb-6">
                   <div className="text-4xl mb-4">{item.icon}</div>
-                  <h3 className="text-xl font-semibold text-slate-800 mb-3">{item.title}</h3>
-                  <p className="text-slate-600 leading-relaxed">{item.desc}</p>
+                  <h3 className="text-xl font-semibold text-[#3a362f] mb-3">{item.title}</h3>
+                  <p className="text-[#3a362f]/70 leading-relaxed">{item.desc}</p>
                 </CardContent>
               </Card>
             ))}
