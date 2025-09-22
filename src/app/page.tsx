@@ -511,33 +511,10 @@ herramientas simples que caben en tu día a día.              </p>
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div>
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent mb-4">
-                JdeAluja
-              </h3>
-              <p className="text-[#3a362f]/80 leading-relaxed">
-                Un espacio de reconexión para mujeres que buscan volver a sí mismas con calma, claridad y presencia.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-white">Enlaces</h4>
-              <ul className="space-y-2">
-                <li><a href="#que-es" className="text-[#c9baa4] hover:text-[#94bae4] transition-colors">Qué es</a></li>
-                <li><a href="#servicios" className="text-[#c9baa4] hover:text-[#94bae4] transition-colors">Servicios</a></li>
-                <li><a href="#sobre-mi" className="text-[#c9baa4] hover:text-[#94bae4] transition-colors">Sobre mí</a></li>
-                <li><Link href="/eco" className="text-[#c9baa4] hover:text-[#94bae4] transition-colors">ECO</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-white">Contacto</h4>
-              <p className="text-[#c9baa4] mb-2">¿Tienes preguntas?</p>
-              <p className="text-[#c9baa4]">Escríbeme y te respondo personalmente.</p>
-            </div>
-          </div>
-          <div className="border-t border-slate-700 mt-8 pt-8 text-center">
-            <p className="text-[#c9baa4]/60">
-              © 2024 JdeAluja. Todos los derechos reservados.
+          
+          <div className="text-center">
+            <p className="text-white">
+              © 2025 JdeAluja. Todos los derechos reservados.
             </p>
           </div>
         </div>
