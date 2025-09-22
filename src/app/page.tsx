@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Heart, Sparkles, Users, Star } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { ArrowRight, Sparkles, Users, Star, Video, BookOpen, Calendar, Map, CheckCircle } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -75,7 +75,7 @@ sola.          </p>
               Descubre más
             </Button>
           </div>
-        </div>
+          </div>
         </div>
       </section>
 
@@ -181,10 +181,10 @@ herramientas simples que caben en tu día a día.              </p>
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-[#3a362f] mb-8">
               Lo que hoy te pesa,{" "}
-              <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
                 aquí encuentra salida.
-              </span>
-            </h2>
+            </span>
+          </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {[
@@ -208,7 +208,7 @@ herramientas simples que caben en tu día a día.              </p>
                 title: "\"Soledad\"",
                 text: "Tribu que escucha sin juicio."
               }
-            ].map((item, index) => (
+                ].map((item, index) => (
               <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-[#94bae4]/20 to-[#c9baa4]/10">
                 <CardContent className="pt-8 pb-6">
                   <div className="flex items-start space-x-4">
@@ -228,8 +228,8 @@ herramientas simples que caben en tu día a día.              </p>
                       <p className="text-[#3a362f] leading-relaxed">{item.text}</p>
                     </div>
                   </div>
-                </CardContent>
-              </Card>
+              </CardContent>
+            </Card>
             ))}
           </div>
           <div className="text-center">
@@ -261,142 +261,143 @@ herramientas simples que caben en tu día a día.              </p>
         </div>
       </section>
 
-
-      {/* Lo que duele / Lo que deseas */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#faf8f3] to-[#94bae4]/10">
+      {/* Espiritualidad práctica */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#3a362f] mb-16">
-            Lo que ahora vives.{" "}
-            <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
-              Lo que en verdad deseas.
-            </span>
-          </h2>
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Lo que duele */}
-            <Card className="border-[#c9baa4] bg-[#faf8f3]/80">
-              <CardHeader>
-                <CardTitle className="text-[#3a362f] text-2xl">Lo que duele</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                {[
-                  "Te has olvidado de ti detrás de tus obligaciones.",
-                  "Sientes que tu vida es un piloto automático.",
-                  "Sostienes a todos… pero nadie te sostiene a ti.",
-                  "Estás cansada, incluso después de haber descansado.",
-                  "La culpa aparece siempre que intentas cuidarte."
-                ].map((item, index) => (
-                  <div key={index} className="flex items-start">
-                    <div className="w-2 h-2 bg-[#6b9cdd] rounded-full mt-3 mr-4 flex-shrink-0"></div>
-                    <p className="text-[#3a362f] leading-relaxed">{item}</p>
-                  </div>
-                ))}
-              </CardContent>
-            </Card>
-
-            {/* Lo que deseas */}
-            <Card className="border-[#94bae4] bg-[#94bae4]/10">
-              <CardHeader>
-                <CardTitle className="text-[#3a362f] text-2xl">Lo que deseas</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                {[
-                  "Respirar. Parar. Tener tiempo para ti.",
-                  "Volver a reconocerte y sentirte viva.",
-                  "Cuidarte sin sentirte egoísta.",
-                  "Tomar decisiones alineadas contigo.",
-                  "Compartir con mujeres que entienden tu proceso."
-                ].map((item, index) => (
-                  <div key={index} className="flex items-start">
-                    <div className="w-2 h-2 bg-[#6b9cdd] rounded-full mt-3 mr-4 flex-shrink-0"></div>
-                    <p className="text-[#3a362f] leading-relaxed">{item}</p>
-                  </div>
-                ))}
-              </CardContent>
-            </Card>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#3a362f] mb-8">
+              Espiritualidad práctica{" "}
+              <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
+                , comunidad real y estructura amable
+              </span>
+            </h2>
           </div>
-          <div className="text-center mt-12">
-            <Link href="/eco">
-              <Button size="lg" className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
-                Sí, esto es para mí
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-            </Link>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              {
+                image: "/14.png",
+                title: "Espiritualidad sin humo",
+                text: "Clara, simple y aplicable"
+              },
+              {
+                image: "/15.png",
+                title: "Autoconocimiento cotidiano",
+                text: "Cuerpo, mente, emoción, energía"
+              },
+              {
+                image: "/16.png",
+                title: "Comunidad segura",
+                text: "Cálida, sin jerarquías"
+              },
+              {
+                image: "/17.png",
+                title: "Rutinas sostenibles",
+                text: "Sin exigencia ni culpas"
+              }
+            ].map((item, index) => (
+              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-[#94bae4]/20 to-[#c9baa4]/10">
+                <CardContent className="pt-8 pb-6 text-center">
+                  <div className="mb-6">
+                    <img 
+                      src={item.image} 
+                      alt="" 
+                      className="w-16 h-16 mx-auto object-cover rounded-full"
+                    />
+                  </div>
+                  <h3 className="text-lg font-semibold text-[#3a362f] mb-3">{item.title}</h3>
+                  <p className="text-[#3a362f] leading-relaxed">{item.text}</p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
 
-      
-
-      {/* Programas / Servicios */}
-      <section id="servicios" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#faf8f3] to-[#94bae4]/10">
+      {/* ¿Qué incluye ECO? */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#94bae4]/20 to-[#c9baa4]/10">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#3a362f] mb-8">
-              Tu bienestar{" "}
-              <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
-                no se negocia.
-              </span>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#3a362f] mb-4">
+              ¿Qué incluye <span className="text-[#6b9cdd]">ECO</span>?
             </h2>
-            <p className="text-xl text-[#3a362f]/70 max-w-3xl mx-auto">
-              Te acompaño en diferentes formatos, para que elijas el que más se adapta a tu momento.
+            <p className="text-xl text-[#3a362f]/70 text-left max-w-2xl mx-auto">
+              Cada mes tendrás acceso a:
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Sesiones individuales */}
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white">
-              <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-[#94bae4]/30 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="w-8 h-8 text-[#6b9cdd]" />
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Columna 1 */}
+            <div className="space-y-8">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-[#6b9cdd]/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Video className="w-6 h-6 text-[#6b9cdd]" />
                 </div>
-                <CardTitle className="text-2xl text-[#3a362f]">Sesiones individuales</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-[#3a362f]/70 mb-6 leading-relaxed">
-                  Un espacio íntimo, seguro y sin juicios. Aquí eres tú, con tus preguntas, tu historia y tu proceso.
-                </p>
-                <Button className="w-full bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white rounded-full">
-                  Quiero mi espacio personal
-                </Button>
-              </CardContent>
-            </Card>
+                <p className="text-[#3a362f] leading-relaxed">2 sesiones en directo (Zoom): prácticas guiadas + integración.</p>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-[#6b9cdd]/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <BookOpen className="w-6 h-6 text-[#6b9cdd]" />
+                </div>
+                <p className="text-[#3a362f] leading-relaxed">Ejercicios y prácticas semanales: cortos, aplicables, sostenibles.</p>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-[#6b9cdd]/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Sparkles className="w-6 h-6 text-[#6b9cdd]" />
+                </div>
+                <p className="text-[#3a362f] leading-relaxed">2 meditaciones mensuales: fáciles de encajar en tu día.</p>
+              </div>
+            </div>
 
-            {/* Encuentros grupales */}
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white">
-              <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-[#c9baa4]/40 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-8 h-8 text-[#3a362f]" />
+            {/* Columna 2 */}
+            <div className="space-y-8">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-[#6b9cdd]/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Users className="w-6 h-6 text-[#6b9cdd]" />
                 </div>
-                <CardTitle className="text-2xl text-[#3a362f]">Encuentros grupales</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-[#3a362f]/70 mb-6 leading-relaxed">
-                  Porque no estás sola. Compartir con mujeres que sienten lo mismo te recuerda que juntas todo pesa menos.
-                </p>
-                <Link href="/eco">
-                  <Button className="w-full bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white rounded-full">
-                    Quiero sentirme acompañada
-                  </Button>
-                </Link>
-              </CardContent>
-            </Card>
+                <p className="text-[#3a362f] leading-relaxed">Encuentros presenciales cada trimestre.</p>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-[#6b9cdd]/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Calendar className="w-6 h-6 text-[#6b9cdd]" />
+                </div>
+                <p className="text-[#3a362f] leading-relaxed">Retiro anual para integrar todo juntas.</p>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-[#6b9cdd]/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Map className="w-6 h-6 text-[#6b9cdd]" />
+                </div>
+                <p className="text-[#3a362f] leading-relaxed">Astrología como apoyo (Sol, Luna, Ascendente, tránsitos) → sin dogmas, solo como mapa de autoconocimiento.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Programas de transformación */}
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white">
-              <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-[#94bae4]/50 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Sparkles className="w-8 h-8 text-[#6b9cdd]" />
-                </div>
-                <CardTitle className="text-2xl text-[#3a362f]">Programas de transformación</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-[#3a362f]/70 mb-6 leading-relaxed">
-                  Procesos más completos para quienes quieren un antes y un después en su vida. Aprendes a priorizarte, a escucharte y a vivir con calma real.
-                </p>
-                <Button className="w-full bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white rounded-full">
-                  Quiero transformar mi vida
-                </Button>
+      {/* Resultados */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#faf8f3]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#3a362f] mb-16">
+            Lo que cambia cuando{" "}
+            <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
+              formas parte de ECO
+            </span>
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              "Rutinas que realmente se sostienen.",
+              "Saber qué sientes, qué necesitas y qué te hace bien.",
+              "Límites más claros y menos culpa.",
+              "Una red de mujeres con la que no te sientes sola.",
+              "Más calma, claridad y energía para tu día a día."
+            ].map((item, index) => (
+              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white">
+                <CardContent className="pt-8 pb-6">
+                  <div className="flex items-start">
+                    <CheckCircle className="w-6 h-6 text-[#6b9cdd] mr-3 flex-shrink-0 mt-1" />
+                    <p className="text-[#3a362f] leading-relaxed">{item}</p>
+                  </div>
               </CardContent>
             </Card>
+            ))}
           </div>
         </div>
       </section>
@@ -445,7 +446,7 @@ herramientas simples que caben en tu día a día.              </p>
       </section>
 
       {/* Sobre mí */}
-      <section id="sobre-mi" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#faf8f3] to-[#94bae4]/10">
+      {/* <section id="sobre-mi" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#faf8f3] to-[#94bae4]/10">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
@@ -482,19 +483,25 @@ herramientas simples que caben en tu día a día.              </p>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Final */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#6b9cdd] to-[#94bae4]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">
-            Sabes sostener a todo el mundo.
+            Tu bienestar no es un lujo.
             <br />
-            <span className="text-white/90">Ahora es momento de sostenerte a ti.</span>
+            <span className="text-white/90">Es tu base.</span>
           </h2>
+          <p className="text-xl text-white/80 mb-6 max-w-2xl mx-auto leading-relaxed">
+            Eco es un lugar donde aprendes a volver a ti con calma, claridad y presencia
+          </p>
+          <p className="text-2xl font-bold text-white mb-8">
+            ECO. Lo que eres, resuena.
+          </p>
           <Link href="/eco">
             <Button size="lg" className="bg-white text-[#6b9cdd] hover:bg-white/90 px-12 py-6 text-xl rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-semibold">
-              Quiero volver a mí
+                Quiero ser parte de ECO
               <ArrowRight className="ml-3 w-6 h-6" />
             </Button>
           </Link>
