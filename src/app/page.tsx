@@ -20,8 +20,7 @@ export default function Home() {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#inicio" className="text-[#3a362f] hover:text-[#6b9cdd] transition-colors">Inicio</a>
               <a href="#que-es" className="text-[#3a362f] hover:text-[#6b9cdd] transition-colors">Qué es</a>
-              <a href="#servicios" className="text-[#3a362f] hover:text-[#6b9cdd] transition-colors">Servicios</a>
-              <a href="#sobre-mi" className="text-[#3a362f] hover:text-[#6b9cdd] transition-colors">Sobre mí</a>
+              <a href="#que-incluye" className="text-[#3a362f] hover:text-[#6b9cdd] transition-colors">Qué incluye</a>
             </div>
           </div>
         </div>
@@ -66,14 +65,12 @@ priorizando a los demás antes que a ellas. <br /><br />
 Un espacio donde parar, escucharte y volver a ti: con calma, claridad y sin sentirte
 sola.          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link href="/eco">
+            <a href="https://wa.me/34616868992?text=Hola%20Judith%2C%20quiero%20ser%20parte%20de%20ECO" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
               Quiero unirme a ECO                <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-            </Link>
-            <Button variant="outline" size="lg" className="px-8 py-4 text-lg rounded-full border-2 border-[#c9baa4] hover:border-[#6b9cdd] transition-all duration-300">
-              Descubre más
-            </Button>
+            </a>
+            
           </div>
           </div>
         </div>
@@ -98,12 +95,12 @@ herramientas simples que caben en tu día a día.              </p>
               Aquí no vienes a leer frases inspiracionales, vienes a parar,
               escucharte y actuar.              </p>
               
-                        
-              <Link href="/eco">
+
+              <a href="#que-incluye">
                 <Button size="lg" className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
                 Quiero saber cómo funciona                  <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
-              </Link>
+              </a>
             </div>
             <div className="relative">
               <div 
@@ -233,12 +230,12 @@ herramientas simples que caben en tu día a día.              </p>
             ))}
           </div>
           <div className="text-center">
-            <Link href="/eco">
+            <a href="https://wa.me/34616868992?text=Hola%20Judith%2C%20quiero%20ser%20parte%20de%20ECO" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
                 Quiero salir del piloto automático
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
@@ -314,7 +311,7 @@ herramientas simples que caben en tu día a día.              </p>
       </section>
 
       {/* ¿Qué incluye ECO? */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#94bae4]/20 to-[#c9baa4]/10">
+      <section id="que-incluye" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#94bae4]/20 to-[#c9baa4]/10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-[#3a362f] mb-4">
@@ -369,6 +366,14 @@ herramientas simples que caben en tu día a día.              </p>
               </div>
             </div>
           </div>
+          <div className="text-center mt-12">
+            <a href="https://wa.me/34616868992?text=Hola%20Judith%2C%20quiero%20ser%20parte%20de%20ECO" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] hover:from-[#5a8ac6] hover:to-[#7da5d1] text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
+                Quiero entrar en ECO
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -408,24 +413,24 @@ herramientas simples que caben en tu día a día.              </p>
           <h2 className="text-4xl md:text-5xl font-bold text-center text-[#3a362f] mb-16">
             Mujeres que ya{" "}
             <span className="bg-gradient-to-r from-[#6b9cdd] to-[#94bae4] bg-clip-text text-transparent">
-              volvieron a sí mismas
+              están dentro
             </span>
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                text: "Llegué agotada, sin saber ni quién era. Hoy sé parar y tomar decisiones desde la calma.",
-                name: "María G.",
+                text: "ECO es mucho más que una comunidad, es un espacio seguro en el cual siento confianza, siento libertad para expresar mis sentimientos, pensamientos o explicar lo que me ha ocurrido en el día. Es un espacio donde me doy cuenta que todas somos una. Judith crea ese espacio, esa energía llena de luz y amor. No juzga porque ella es una más de nosotras. Ella pone amor a todo lo que hace y nos da la mano siempre",
+                name: "Marta",
                 rating: 5
               },
               {
-                text: "Pensaba que priorizarme era egoísta. Ahora entiendo que es amor propio.",
-                name: "Ana L.",
+                text: "Me encanta tener un grupo al que le puedo explicar mis cosas sin tener miedo a ser juzgada. Poder ver que no solo me pasan a mí las cosas, que hay mas chicas con la misma situación y no me siento tan sola. Gracias a ECO me dedico momentos para mi bienestar y estoy aprendiendo a parar, bajar el ritmo y escucharme más.",
+                name: "Laura",
                 rating: 5
               },
               {
-                text: "Encontré un espacio donde pude ser yo, sin explicaciones ni juicios.",
-                name: "Carmen R.",
+                text: "Lo mejor de ECO es la energía que se siente, la sabiduría que todas podemos compartir y que todas podemos aprender de todas. Saber que es un sitio seguro en el que puedo desahogarme y no sentirme juzgada consigue que entre nosotras nos sintamos en familia.",
+                name: "Andrea",
                 rating: 5
               }
             ].map((testimonial, index) => (
@@ -499,12 +504,12 @@ herramientas simples que caben en tu día a día.              </p>
           <p className="text-2xl font-bold text-white mb-8">
             ECO. Lo que eres, resuena.
           </p>
-          <Link href="/eco">
+          <a href="https://wa.me/34616868992?text=Hola%20Judith%2C%20quiero%20ser%20parte%20de%20ECO" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-white text-[#6b9cdd] hover:bg-white/90 px-12 py-6 text-xl rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-semibold">
                 Quiero ser parte de ECO
               <ArrowRight className="ml-3 w-6 h-6" />
             </Button>
-          </Link>
+          </a>
         </div>
       </section>
 
