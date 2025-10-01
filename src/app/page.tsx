@@ -450,6 +450,60 @@ herramientas simples que caben en tu día a día.              </p>
         </div>
       </section>
 
+      {/* La mujer que se esconde tras JotadeAluja */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#faf8f3] to-[#94bae4]/10">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#3a362f] leading-tight text-center">
+              La mujer que se esconde tras{" "}
+              <span className="text-[#6b9cdd]">JotadeAluja</span>
+            </h2>
+          </div>
+          <div className="grid lg:grid-cols-10 gap-16 items-center">
+            <div className="lg:col-span-6">
+
+              <div className="space-y-6 text-lg text-[#3a362f]/80 leading-relaxed">
+                <p className="text-xl font-semibold text-[#3a362f] mb-4">
+                  Mi nombre es Judith,
+                </p>
+                
+                <p>
+                  Durante años viví disponible para todos: trabajo, familia, amigos... Siempre resolviendo, cuidando, atendiendo. Al final del día no quedaba nada para mí. Me sentía agotada, desconectada, con la sensación de haberme desaparecido detrás de obligaciones y &ldquo;deberías&rdquo;.
+                </p>
+                
+                <p>
+                  Hasta que me di cuenta de que si quería seguir dando a otros, primero tenía que volver a mí. Parar, escucharme, reconocer mis necesidades y darme permiso para estar en mi lista, no siempre la última. Este camino de autoconocimiento me trajo energía, calma y claridad. Y también me hizo ver que mi historia no era única; era la historia de muchas mujeres viviendo en &ldquo;piloto automático&rdquo;.
+                </p>
+                
+                <p>
+                  De esta experiencia nació un propósito: no como proyecto personal, sino como espacio social necesario. Porque cuando una mujer vuelve a sí misma, todo a su alrededor cambia: su manera de relacionarse, cuidar, decidir, vivir. Y cuando una lo hace, abre el camino para el resto.
+                </p>
+                
+                <p>
+                  Hoy acompaño a mujeres a dar ese paso. No con teorías vacías ni promesas, sino con rutinas reales, espacios seguros y una comunidad que demuestra que no estás sola. Volver a ti, sin exigencias, sin miedo y con apoyo.
+                </p>
+                
+                <p className="text-xl font-semibold text-[#6b9cdd] mt-8">
+                  Y si yo pude hacerlo, tú también puedes.
+                </p>
+              </div>
+            </div>
+
+            <div className="lg:col-span-4 relative">
+              <div className="relative">
+                <img 
+                  src="/FotoJudith.png" 
+                  alt="Judith - La mujer detrás de JotadeAluja" 
+                  className="w-full h-auto rounded-2xl "
+                  
+                />
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Sobre mí */}
       {/* <section id="sobre-mi" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#faf8f3] to-[#94bae4]/10">
         <div className="max-w-6xl mx-auto">
